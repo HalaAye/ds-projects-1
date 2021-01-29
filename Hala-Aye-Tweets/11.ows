@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="Twitter" position="(-193.0, 145.0)" project_name="Orange3-Text" qualified_name="orangecontrib.text.widgets.owtwitter.OWTwitter" title="Twitter" version="" />
+		<node id="1" name="Data Table" position="(-107.0, 145.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
+		<node id="2" name="Select Columns" position="(-15.0, 147.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" title="Select Columns" version="" />
+		<node id="3" name="Data Table" position="(87.0, 144.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table (1)" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Corpus" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="2" source_channel="Data" source_node_id="1" />
+		<link enabled="true" id="2" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="2" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'allow_retweets': False, 'collecting': False, 'controlAreaVisible': True, 'language': 'en', 'limited_search': True, 'max_tweets': 1000, 'mode': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\x96\x00\x00\x00\xeb\x00\x00\x05\x04\x00\x00\x02\xc2\x00\x00\x03\x97\x00\x00\x01\n\x00\x00\x05\x03\x00\x00\x02\xc1\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x03\x97\x00\x00\x01\n\x00\x00\x05\x03\x00\x00\x02\xc1', 'text_includes': ['Content'], 'word_list': ['#COVID19'], '__version__': 1}</properties>
+		<properties format="literal" node_id="1">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\x05V\x00\x00\x02\xd8\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xd7\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xd7', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 1}</properties>
+		<properties format="pickle" node_id="2">gASVhgMAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZl
+ZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAF/AAAAQAAAA9YAAAKXAAABfwAAAEAAAAPWAAAC
+lwAAAAAAAAAABVYAAAF/AAAAQAAAA9YAAAKXlIwSdXNlX2lucHV0X2ZlYXR1cmVzlImMC19fdmVy
+c2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UjBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdD
+b250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojBFkb21haW5fcm9sZV9oaW50c5R9lCiMBkF1dGhv
+cpRLAYaUjAlhdmFpbGFibGWUSwCGlIwPTnVtYmVyIG9mIExpa2VzlEsChpRoFEsBhpSMEk51bWJl
+ciBvZiBSZXR3ZWV0c5RLAoaUaBRLAoaUjAtJbiBSZXBseSBUb5RLAYaUaBRLA4aUjAtBdXRob3Ig
+TmFtZZRLAYaUaBRLBIaUjBJBdXRob3IgRGVzY3JpcHRpb26USwOGlGgUSwWGlIwVQXV0aG9yIFN0
+YXR1c2VzIENvdW50lEsChpRoFEsGhpSMF0F1dGhvciBGYXZvdXJpdGVzIENvdW50lEsChpRoFEsH
+hpSMFEF1dGhvciBGcmllbmRzIENvdW50lEsChpRoFEsIhpSMFkF1dGhvciBGb2xsb3dlcnMgQ291
+bnSUSwKGlGgUSwmGlIwTQXV0aG9yIExpc3RlZCBDb3VudJRLAoaUaBRLCoaUjAlMb25naXR1ZGWU
+SwKGlGgUSwuGlIwITGF0aXR1ZGWUSwKGlGgUSwyGlIwERGF0ZZRLBIaUaBRLDYaUjA9BdXRob3Ig
+VmVyaWZpZWSUSwGGlGgUSw6GlIwITG9jYXRpb26USwGGlGgUSw+GlIwITGFuZ3VhZ2WUSwGGlGgU
+SxCGlIwIU2VsZWN0ZWSUSwGGlGgUSxGGlIwHQ29udGVudJRLA4aUjARtZXRhlEsAhpR1Sv7///+G
+lGgGSwF1jAphdHRyaWJ1dGVzlH2UaEZLAXOMBW1ldGFzlH2UKGhJSwNoOksEaENLAWhASwFoFksC
+aBlLAmgcSwFoH0sBaCJLA2glSwJoKEsCaCtLAmguSwJoMUsCaD1LAWg0SwJoN0sCaBJLAXV1YmF1
+Lg==
+</properties>
+		<properties format="literal" node_id="3">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xd7\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xd7\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xd7', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
